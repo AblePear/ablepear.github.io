@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.SlidingPanelsAnimating * {
+	overflow: hidden !important;
+}
+
+.SlidingPanelsCurrentPanel {
+}
+
+.SlidingPanelsFocused {
+}
+
+
+.screenshotTabs.TabbedPanels {
+ margin: 1em;
+}
+
+#main .TabbedPanelsTab {
+  list-style: none;
+}
+
+.screenshots {
+  height: 400px;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+}
+
+.screenshots .SlidingPanels {
+  border: none;
+  height: 345px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0px;
+  position: relative;
+  width: 240px;
+}
+
+.screenshots .SlidingPanelsContentGroup {
+  position: absolute;
+  height: 345px;
+  width: 1680px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.screenshots .SlidingPanelsContent {
+  width: 240px;
+  height: 345px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  float: left;
+}
+
+/*  CONTROLS  */
+.screenshots .controls {
+  top: 10px;
+  margin: 0 auto;
+}
+.screenshots ul.controls {
+  display: block;
+  position: absolute;
+  top: 380px;
+  left: auto;
+  font-size: smaller;
+}
+div.screenshots ul.controls.two {
+  left: 182px;
+}
+div.screenshots ul.controls.three {
+  left: 166px;
+}
+div.screenshots ul.controls.four {
+  left: 150px;
+}
+div.screenshots ul.controls.five {
+  left: 134px;
+}
+div.screenshots ul.controls.six {
+  left: 118px;
+}
+div.screenshots ul.controls.seven {
+  left: 102px;
+}
+
+#main .screenshots ul li {
+  float: left;
+  border: thin solid #825a39;
+  padding-top: 0;
+  margin-left: 6px;
+  cursor: pointer;
+  list-style: none;
+}
+.screenshots ul li a {
+  display: block;
+  padding: 3px 8px;
+  background-color: #efefef;
+  color: rgb(165, 176, 92);
+}
+.screenshots ul li a:hover {
+  background-color:#fbe888;
+  color: #825a39;
+}
+.screenshots ul li a.active {
+  background-color:#fbe888;
+  color: #825a39;
+}
+

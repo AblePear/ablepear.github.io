@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+#billboard {
+	color: #000;
+	font-size: 16px;
+	width: 960px;
+	margin: 0 auto 18px;
+	overflow: hidden;
+	position: relative;
+}
+#billboard:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#billboard {
+	background: url(../media/billboard/20090401/background.png) no-repeat;
+	height: 300px;
+}
+div.entry {
+	visibility: hidden;
+	text-shadow: #ffffff 2px 2px 2px;
+}
+div.showentry {
+	visibility: visible;
+}
+#billboard h1 {
+	left: 60px;
+	top: 70px;
+	width: 480px;
+	height: 75px;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: normal;
+
+/* Note: Image Only (No Text) */
+/*
+	background: url(IMAGE LOCATION) no-repeat;
+*/}
+#billboard h2 {
+	left: 60px;
+	top: 135px;
+	width: 400px;
+	height: 150px;
+	font-size: 15px;
+	line-height: 19px;
+	color: #825a39;
+
+/* Note: Image Only (No Text) */
+/*
+	background: url(IMAGE LOCATION) no-repeat;
+*/}
+#billboard h1,
+#billboard h2 {
+	position: absolute;
+	font-weight: normal;
+/* Note: Image Only (No Text) *//*	for image and no text
+	text-indent: -9999px;
+	overflow: hidden;
+*/}
+#billboard h2 a.more {
+	padding-left: 4px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+#billboard ul.entrynav {
+	position: absolute;
+	top: 250px;
+	right: 500px;
+	font-size: smaller;
+}
+#billboard li {
+	float: left;
+	border:#825a39 thin solid;
+	margin-left: 6px;
+	cursor:pointer;
+}
+#billboard li a {
+	display: block;
+	padding: 3px 8px;
+	background-color:#ffffff;
+	color: rgb(165, 176, 92);
+}
+#billboard li a:hover {
+	background-color:#fbe888;
+	color: #825a39;
+}
+#billboard li a.active {
+	background-color:#fbe888;
+	color: #825a39;
+}
+/*
+#billboard a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 960px;
+	height: 552px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+*/
+/*
+#billboard a#gt {
+	left: 105px;
+	top: 398px;
+	width: 175px;
+	height: 80px;
+	text-indent: 0;
+}
+*/

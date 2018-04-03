@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+#billboardPromos {
+	color: #000;
+	font-size: 16px;
+	width: 960px;
+	height: 64px;
+	margin: 48px auto;
+/*	border-top: 2px solid #a5b05c;*/
+	overflow: visible;
+	position: relative;
+}
+#billboardPromos:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#billboardPromos h1 {
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 86px;
+	background: url(../media/billboard/billboardPromos/20090803/20090803.png) no-repeat 0px -100px;
+}
+#billboardPromos h1:hover {
+	background: url(../media/billboard/billboardPromos/20090803/20090803.png) no-repeat 0px 0px;
+}
+#billboardPromos h2 {
+	left: 320px;
+	top: 0px;
+	width: 320px;
+	height: 86px;
+	background: url(../media/billboard/billboardPromos/20090803/20090803.png) no-repeat -320px -100px;
+}
+#billboardPromos h2:hover {
+	background: url(../media/billboard/billboardPromos/20090803/20090803.png) no-repeat -320px 0px;
+}
+#billboardPromos h3 {
+	left: 640px;
+	top: 0px;
+	width: 320px;
+	height: 86px;
+	background: url(../media/billboard/billboardPromos/20090803/20090803.png) no-repeat -640px -100px;
+}
+#billboardPromos h3 a:hover {
+	background: url(../media/billboard/billboardPromos/20090803/20090803.png) no-repeat -640px 0px;
+}
+#billboardPromos h1,
+#billboardPromos h2,
+#billboardPromos h3 {
+	position: absolute;
+	font-weight: normal;
+	text-indent: -9999px;
+	overflow: hidden;
+	font-size: 1em;
+}
+
+#billboardPromos a {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 320px;
+	height: 86px;
+	text-indent: -9999px;
+	overflow: hidden;
+}

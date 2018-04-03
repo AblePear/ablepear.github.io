@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+#billboard {
+	background: url(../media/billboard/110616/background.png) no-repeat;
+}
+#billboard a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 960px;
+	height: 552px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+#billboardLink {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	right: 0px;	
+}

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#billboard {
+	display:block;
+	color: #000;
+	font-size: 16px;
+	height: 320px;
+	width: 960px;
+	margin: 24px auto 18px;
+	overflow: visible;
+	position: relative;	
+	
+	background: url(../media/billboard/110616/background.png) no-repeat;
+}
+#billboard a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 960px;
+	height: 320px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+#billboardLink {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+	height: 320px;
+	position: absolute;
+	right: 0px;	
+}
+
+
+/*
+#billboard a#gt {
+	left: 105px;
+	top: 398px;
+	width: 175px;
+	height: 80px;
+	text-indent: 0;
+}
+*/
+
+
+/*  DEFAULT CSS  */
+#hero {
+	color: #000;
+	font-size: 16px;
+	width: 960px;
+	margin: 0 auto 18px;
+	overflow: hidden;
+	position: relative;
+}
+#hero:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#hero {
+	background: url(../media/global/herobackground.png) no-repeat;
+/*	background: url(../media/hero/products.png) no-repeat;*/	height: 300px;
+}
+#hero h1 {
+	left: 145px;
+	top: 65px;
+	width: 320px;
+	height: 90px;
+	background: url(../media/hero/products/heading_090401.png) no-repeat;
+}
+#hero h2 {
+	left: 145px;
+	top: 135px;
+	width: 320px;
+	height: 120px;
+	background: url(../media/hero/products/subheading_090401.png) no-repeat;
+}
+#hero h3 {
+	left: 580px;
+	top: 50px;
+	width: 200px;
+	height: 270px;
+	background: url(../media/hero/products/productimage_090401.png) no-repeat;
+}
+#hero h1,
+#hero h2,
+#hero h3 {
+	position: absolute;
+	font-weight: normal;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#hero a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 960px;
+	height: 300px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+
+
+
+/*  ADDED INFORMATION  */
+#hero1, #hero2 {
+	display:block;
+	color: #000;
+	font-size: 16px;
+	height: 320px;
+	width: 960px;
+	margin: 24px auto 18px;
+	overflow: visible;
+	position: relative;
+}
+#hero1:after, #hero2:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#hero1 h1, #hero2 h1 {
+	left: 0px;
+	top: 0px;
+	width: 240px;
+	height: 320px;
+}
+#hero1 h2, #hero2 h2 {
+	left: 240px;
+	top: 0px;
+	width: 240px;
+	height: 320px;
+}
+#hero1 h3, #hero2 h3 {
+	left: 480px;
+	top: 0px;
+	width: 240px;
+	height: 320px;
+}
+#hero1 h4, #hero2 h4 {
+	left: 720px;
+	top: 0px;
+	width: 240px;
+	height: 320px;
+}
+#hero1 h1,
+#hero1 h2,
+#hero1 h3,
+#hero1 h4,
+#hero2 h1,
+#hero2 h2,
+#hero2 h3,
+#hero2 h4 {
+	position: absolute;
+	font-weight: normal;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#hero1 a, #hero2 a {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 240px;
+	height: 320px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+/* Hero 1 */
+#hero1 h1 {
+	background: url(../media/hero/products/products_101129-1.png) no-repeat -240px 0px;
+}
+#hero1 h1:hover {
+	background: url(../media/hero/products/products_101129-1.png) no-repeat -240px -320px;
+}
+#hero1 h2 {
+	background: url(../media/hero/products/products_101129-1.png) no-repeat -720px 0px;
+}
+#hero1 h2:hover {
+	background: url(../media/hero/products/products_101129-1.png) no-repeat -720px -320px;
+}
+#hero1 h3 {
+	background: url(../media/hero/products/products_101129-2.png) no-repeat 0px 0px;
+}
+#hero1 h3:hover {
+	background: url(../media/hero/products/products_101129-2.png) no-repeat 0px -320px;
+}
+#hero1 h4 {
+	background: url(../media/hero/products/products_101129-2.png) no-repeat -240px 0px;
+}
+#hero1 h4:hover {
+	background: url(../media/hero/products/products_101129-2.png) no-repeat -240px -320px;
+}
+

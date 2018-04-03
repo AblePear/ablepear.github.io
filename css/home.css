@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document *//* BILLBOARD */#billboard,
+#promos,
+#headlines,
+#blogger,
+#options,
+#links,
+#homefooter {
+	width: 960px;
+	margin: 0 auto 10px;
+	clear: both;
+	color: #767676;
+}
+#billboard {
+	margin: 10px auto 0 auto;
+}
+#billboard img.bottom {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	margin-bottom: 16px;
+}
+#billboard a.more {
+	padding-right: 8px;
+/*	background: url(/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%;
+*/	text-decoration: none;
+}
+#billboard a.more:hover {
+	text-decoration: underline;
+}
+#billboard .left {
+	float: left;
+}
+/* PROMOS */#promos {
+	width: 960px;
+	height: 155px;
+}
+#promos img {
+	float: left;
+	border-width: 0;
+	margin: 0 12px 0 0;
+}
+#promos img.last {
+	margin: 0;
+}

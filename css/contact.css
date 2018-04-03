@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+.column h2 {
+	font-size: 16px;
+	color: #333;
+	word-spacing: -0.1em;
+}
+#main h2.next {
+	margin-top: 4em;
+	border-top: 1px solid #a5b05c;
+	padding-top:1em;
+}
+#main h3 {
+	font-size: 13px;
+	color: #333;
+	font-weight: normal;
+	word-spacing: -0.1em;
+}
+#main h3.next {
+	margin-top: 3em;
+}
+#content {
+	float: left;
+	width: 920px;
+}
+.column.first {
+	border-right: 1px solid #a5b05c;
+}
+.column.first p {
+	padding-right: 18px;
+}
+#content h3 {
+	color: #a5b05c;
+	border-bottom: 1px solid #a5b05c;
+	padding-bottom: .2em;
+	margin-bottom: .5em;
+}
+#content a {
+	color: #787878;
+}
+
+/* forms */
+form .input {
+	clear:both;
+	margin-bottom:2em;
+}
+form .input label,
+form .input label b {
+	display:block;
+	margin-bottom:1em;
+} 
+form .input input.text {
+	width:380px;
+	margin:2px 6px 0 0;
+	vertical-align:top;
+	*vertical-align:baseline;
+}
+form .input select {
+	width:380px;
+}
+form .input textarea {
+	width:380px;
+}
+form .input span {
+	display:block;
+/*	margin-left:125px;*/
+}
+form .right .button {
+	margin-left:1em;
+}
+form div.right {
+	text-align: right;
+	padding-right: 80px;
+}

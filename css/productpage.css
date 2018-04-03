@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+#main h3 {
+	font-size: 13px;
+	color: #333;
+	font-weight: normal;
+	word-spacing: -0.1em;
+}
+#main ul li {
+	list-style: circle inside;
+}
+#main .note {
+	font-size: small;
+	font-style: oblique;
+	color: #CCC;
+}
+#main p.download {
+	border:#a5b05c thin solid;
+	padding: 10px 10px 10px 15px;
+	color:#923a34;
+}
+#main p.download a:hover {
+	color:#fbe888;
+}
+#main p.pricing {
+	border:#a5b05c thin solid;
+	padding: 10px 15px;
+	background-color:#FFF4E4;
+}
+#main p.pricing a {
+	color:#923a34;
+}
+#main p.pricing a:hover {
+	color:#545827;
+}
+#main p.pricing a img {
+	vertical-align:middle;
+}
+#content {
+	float: left;
+	width: 920px;
+}
+.column1 {
+	width: 420px;
+	padding-left: 50px;
+	float: left;
+}
+.column2 {
+	width: 440px;
+	float: right;
+}
+#content .column1 h1,
+#content .column1 h2 {
+	color: #a5b05c;
+}
+#content .column1 h1 {
+	padding-bottom: .2em;
+	margin: 1.5em auto 0;
+}
+#content .column1 h2 {
+	border-bottom: 1px solid #a5b05c;
+	padding-bottom: .5em;
+}
+#content h3 {
+	color: #a5b05c;
+	border-bottom: 1px solid #a5b05c;
+	padding-bottom: .2em;
+	margin-bottom: .5em;
+}
+#content a {
+	color: #a5b05c;
+}
